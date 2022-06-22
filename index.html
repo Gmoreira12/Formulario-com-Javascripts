@@ -1,70 +1,79 @@
 <!DOCTYPE html>
-<html>
-<title>AVA2</title>
+
 <head>
-    <meta charset="UTF-8">
-	<meta  name='viewport' content='width=device-width'>
-  <link rel="stylesheet" type="text/css" href="css/estilo.css"> 
-
+	<meta charset="UTF-8">
+	<meta name='viewport' content='width=device-width'>
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<title>AVA2: Gabriel Gonçalves Moreira</title>
 </head>
+
 <body>
-	
+
 	<div id="fundo">
-		<div >
-<form name="formulario" method="post" action="#" class="conteiner">
+		<div>
+			<form name="formulario" method="post" action="#" class="conteiner">
 
 
- <label>Nome: </br></label>
- <input  class="linha1" name="nome" onkeypress="return event.charCode > 96 && event.charCode < 123 || event.charCode > 64 && event.charCode < 91 || event.charCode == 32 ">
+				<label>Nome: </br></label>
+				<input class="linha1" name="nome"
+					onkeypress="return event.charCode > 96 && event.charCode < 123 || event.charCode > 64 && event.charCode < 91 || event.charCode == 32 ">
 
-	</br></br>
- 
- <label>Email: </br></label>
- <input  class="linha1" name="email" >
+				</br></br>
 
-	</br></br>
+				<label>Email: </br></label>
+				<input class="linha1" name="email">
 
- <label>Data de Nascimento: </br>
- <input class="nasc" type="number" size="4"  name="dia" required>/
- <input class="nasc" type="number" size="4"   name="mes" required>/
- <input class="nasc" type="number" size="4"   name="ano" required></label>
+				</br></br>
 
-	</br></br>
+				<label>Data de Nascimento: </br>
+					<input class="nasc" type="number" size="4" name="dia" required>/
+					<input class="nasc" type="number" size="4" name="mes" required>/
+					<input class="nasc" type="number" size="4" name="ano" required></label>
 
- 	<label >Estado Civil: </br></label>
- 	<select id="estadocivil" name="estadocivil">
-	<option value="SOLTEIRO">Solteiro(a)</option>
-	<option value="CASADO">Casado(a)</option>
-	<option value="OUTROS">Outros</option>
-    </select>
+				</br></br>
 
-	</br></br>
+				<label>Estado Civil: </br></label>
+				<select id="estadocivil" name="estadocivil">
+					<option value="SOLTEIRO">Solteiro(a)</option>
+					<option value="CASADO">Casado(a)</option>
+					<option value="OUTROS">Outros</option>
+				</select>
 
-	<label>Sexo: </br></label><input class="sexo" type="radio" name="sexo" value="MASCULINO" checked ><label class="sexo">Masculino</label><input class="sexo" type="radio" name="sexo" value="FEMININO" required><label class="sexo">Feminino</label> 
+				</br></br>
 
-	</br></br>
+				<label>Sexo: </br></label><input class="sexo" type="radio" name="sexo" value="MASCULINO" checked><label
+					class="sexo">Masculino</label><input class="sexo" type="radio" name="sexo" value="FEMININO"
+					required><label class="sexo">Feminino</label>
 
-    <label >Áreas de Interesse:</label> </br>
-	<input type="checkbox" class="interesse" id="c1" value="ANÁLISE"><label class="interesse">Análise</label></br>
-	<input type="checkbox" class="interesse" id="c3" value="BANCO DE DADOS"><label class="interesse">Banco de dados</label></br>
-	<input type="checkbox" class="interesse" id="c5" value="DESENVOLVIMENTO"><label class="interesse">Desenvolvimento</label></br>
-	<input type="checkbox" class="interesse" id="c7" value="ENGENHARIA DE SOFTWARE"><label class="interesse">Engenharia de software</label></br> 
-	<input type="checkbox" class="interesse" id="c9" value="REDES DE COMPUTADORES"><label class="interesse">Redes de computadores</label></br></br>
-	
- 
- 
- </center> <br>
- 
- 	<footer>
- 	<input  onClick="enviar()" id="botao" type="button" value="Enviar" name="botao">
- 	</footer>
- </form>
-	
-</div>
-</div>
-<script language="javascript" type="text/javascript" charset="utf-8" src="js/main.js"> 
-	
+				</br></br>
 
-</script>
+				<label>Áreas de Interesse:</label> </br>
+				<input type="checkbox" class="interesse" id="c1" value="ANÁLISE"><label
+					class="interesse">Análise</label></br>
+				<input type="checkbox" class="interesse" id="c3" value="BANCO DE DADOS"><label class="interesse">Banco
+					de dados</label></br>
+				<input type="checkbox" class="interesse" id="c5" value="DESENVOLVIMENTO"><label
+					class="interesse">Desenvolvimento</label></br>
+				<input type="checkbox" class="interesse" id="c7" value="ENGENHARIA DE SOFTWARE"><label
+					class="interesse">Engenharia de software</label></br>
+				<input type="checkbox" class="interesse" id="c9" value="REDES DE COMPUTADORES"><label
+					class="interesse">Redes de computadores</label></br></br>
+
+
+
+				</center> <br>
+
+				<footer>
+					<input onClick="enviar()" id="botao" type="button" value="Enviar" name="botao">
+				</footer>
+			</form>
+
+		</div>
+	</div>
+	<script language="javascript" type="text/javascript" charset="utf-8" src="js/main.js">
+
+
+	</script>
 </body>
+
 </html>

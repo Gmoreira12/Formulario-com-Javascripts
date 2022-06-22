@@ -18,19 +18,16 @@ body{
     border-radius: 10px;
     padding-left: 5%;
 }
-
 label{
     color: black;
     font-size: 100%;
 }
-
 div{
     display: flex;
     justify-content: center;
     margin-top: 2%;
     
 }
-
 #fundo{
     border-width: 100%;
     border-style: outset;
@@ -42,66 +39,53 @@ div{
     border-right-width: 0px;
     border-left-width: 0px;
 }
-
 .linha1{
     width: 50%;
     outline: none;
     border: none;
     border-bottom: 2px solid black;
     background: none;
-    
 }
-
-.nasc {
+.nasc{
     width: 15%;
     outline: none;
     border: none;
     border-bottom: 2px solid black;
     background: none;
     text-align: center;
-
 }
 
 .sexo{
     font-size: 15px;
     margin:1px 6px 0 0;
 }
-
 #estadocivil{
     width: 40%;
-    
     outline: none;
     border: none;
     border-bottom: 2px solid black;
     background: none;
     text-align: center;
-    
 }
-
 input{
     font-size: 100%;
     border-radius: 5px;
 }
-
 body{
     background-color: lightgrey;
     background-color: white;
     box-sizing: 50%;
 }
-
 .interesse{
     font-size: 100%;
     line-height: 25px;
     margin-left: 5px;
 }
-
 #botao{
     padding: 1% 20%;
     border: none;
     background-image: linear-gradient(to right, #33648b, #87a4bb);
 }
-
-
 footer{
     display: flex;
     justify-content: center;
